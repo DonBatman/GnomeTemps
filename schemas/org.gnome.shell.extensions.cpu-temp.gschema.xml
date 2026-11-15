@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.cpu-temp" path="/org/gnome/shell/extensions/cpu-temp/">
+    <key name="use-fahrenheit" type="b">
+      <default>false</default>
+      <summary>Use Fahrenheit</summary>
+      <description>Display temperatures in Fahrenheit instead of Celsius.</description>
+    </key>
+    <key name="warn-temp-c" type="i">
+      <default>70</default>
+      <summary>Warning Temperature (°C)</summary>
+      <description>Temperature threshold in Celsius to highlight in amber.</description>
+    </key>
+    <key name="crit-temp-c" type="i">
+      <default>85</default>
+      <summary>Critical Temperature (°C)</summary>
+      <description>Temperature threshold in Celsius to highlight in red.</description>
+    </key>
+    <key name="poll-interval" type="i">
+      <default>2</default>
+      <summary>Polling Interval (seconds)</summary>
+      <description>How often CPU thermal sensors are sampled in seconds.</description>
+    </key>
+  </schema>
+</schemalist>
