@@ -1,0 +1,8 @@
+~/.local/share/gnome-shell/extensions/cpu-temp@serfdon.com/
+├── metadata.json
+├── extension.js
+├── prefs.js
+├── README.md
+└── schemas/
+    ├── org.gnome.shell.extensions.cpu-temp.gschema.xml
+    └── gschemas.compiled

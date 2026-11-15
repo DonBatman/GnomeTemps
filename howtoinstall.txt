@@ -1,0 +1,13 @@
+Open the file "install"
+
+Open your terminal
+
+Paste (Ctrl + Shift + v) into terminal and hit Enter
+
+Log out and back in
+
+Either run 
+
+gnome-extensions enable cpu-temp@serfdon.com
+
+or use the extention manager to enable the extension

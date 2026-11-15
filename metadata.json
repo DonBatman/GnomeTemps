@@ -1,0 +1,13 @@
+EXT_DIR="$HOME/.local/share/gnome-shell/extensions/cpu-temp@serfdon.com"
+
+cat << 'EOF' > "$EXT_DIR/metadata.json"
+{
+  "uuid": "cpu-temp@serfdon.com",
+  "name": "CPU Temperature Monitor",
+  "description": "Displays live CPU temperature in the top bar next to the right system icons, with per-core dropdown readouts, color thresholds, and °C/°F support.",
+  "url": "https://github.com/DonBatman/gnome-cpu-temp",
+  "settings-schema": "org.gnome.shell.extensions.cpu-temp",
+  "shell-version": ["45", "46", "47", "48", "49", "50", "51"],
+  "version": 1
+}
+EOF

@@ -1,0 +1,1 @@
+python3 -m json.tool ~/.local/share/gnome-shell/extensions/cpu-temp@serfdon.com/metadata.json
